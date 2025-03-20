@@ -1,0 +1,269 @@
+body {
+    background-color: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Paytone one';
+    src: url(../fonts/Paytone_One/PaytoneOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Uncage';
+    src: url(../fonts/ofont.ru_Uncage.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat alternates';
+    src: url(../fonts/malter/MontserratAlternates-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat alternates';
+    src: url(../fonts/malter/MontserratAlternates-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat alternates';
+    src: url(../fonts/malter/MontserratAlternates-Regular.ttf);
+    font-weight: 500;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-size: 32px;
+    font-family: 'uncage';
+    color: white;
+}
+
+.phto_container {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.oblog {
+    width: 250px;
+}
+
+.name_album p {
+    font-size: 48px;
+    font-family: 'uncage';
+    color: white;
+}
+
+.kategory p {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #525252;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0.25px solid white;
+}
+
+.ispolnitel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ispolnitel p {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #525252;
+    font-weight: bold;
+    padding-right: 22px;
+}
+
+.btns {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.go {
+    background-color: #525252;
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.btn .go {
+    margin-top: 40px;
+    width: 300px;
+    padding-left: 60px;
+    margin-left: 550px;
+}
+
+.vectors {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.raz {
+    margin-top: 40px;
+}
+
+.tracks {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 20px;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pupu {
+    display: flex;
+}
+
+.numb {
+    text-align: center;
+    font-size: 28px;
+    color: rgba(251, 251, 251, 0.714);
+    font-family: 'paytone one';
+    width: 45px;
+}
+
+.infotrack {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.secondary p {
+    font-size: 16px;
+    color: #585858;
+    font-family: 'Montserrat';
+    display: flex;
+}
+
+.secondary {
+    display: flex;
+    gap: 100px;
+}
+
+.like_more {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.albums {
+    padding-top: 40px;
+}
+
+.catalog {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.album {
+    width: 310px;
+}
+
+.obl {
+    width: 310px;
+    height: auto;
+}
+
+.name_alb p {
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.author_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author_date p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #3b3b3b;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 120px;
+    padding-top: 60px;
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+
+.up {
+    display: flex;
+    gap: 50px;
+}
+
+.up a {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat alternates';
+    font-weight: 500;
+    letter-spacing: 8px;
+}

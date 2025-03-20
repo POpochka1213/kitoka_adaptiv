@@ -1,0 +1,297 @@
+body {
+    background-color: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Paytone one';
+    src: url(../fonts/Paytone_One/PaytoneOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Uncage';
+    src: url(../fonts/ofont.ru_Uncage.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat alternates';
+    src: url(../fonts/malter/MontserratAlternates-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat alternates';
+    src: url(../fonts/malter/MontserratAlternates-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat alternates';
+    src: url(../fonts/malter/MontserratAlternates-Regular.ttf);
+    font-weight: 500;
+}
+
+.main {
+    background-image: url(../image/ispolnitel/a7541faa7a536483802e14f1bc41caf3\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 620px;
+}
+
+.name_isp {
+    padding-top: 80px;
+    font-size: 96px;
+    font-family: 'Uncage';
+    color: white;
+}
+
+.yep {
+    color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+    padding-left: 280px
+}
+
+.non {
+    color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.kol-vo p {
+    background-color: #262626;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    width: 480px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.kol-vo {
+    width: 300px;
+    z-index: 22;
+}
+
+.list {
+    margin-top: -220px;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-size: 32px;
+    font-family: 'uncage';
+    color: white;
+}
+
+.tracks {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pupu {
+    display: flex;
+}
+
+.infotrack {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.secondary p {
+    font-size: 16px;
+    color: #585858;
+    font-family: 'Montserrat';
+    display: flex;
+}
+
+.secondary {
+    display: flex;
+    gap: 100px;
+}
+
+.like_more {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.albums {
+    padding-top: 40px;
+}
+
+.catalog {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.album {
+    width: 310px;
+}
+
+.obl {
+    width: 310px;
+    height: auto;
+}
+
+.name_alb p {
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.author_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author_date p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #3b3b3b;
+    font-weight: bold;
+}
+
+.go {
+    background-color: #323232;
+    width: 275px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
+.pos {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 42px;
+}
+
+.btn {
+    padding-top: 50px;
+    padding-left: 575px;
+}
+
+.rek_cont {
+    padding-top: 120px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #ABA6A6;
+}
+
+
+.p {
+    background-color: white;
+    width: 340px;
+    height: 105px;
+    border: none;
+    margin-bottom: -2px;
+    z-index: 2;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.p p {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.artist {
+    width: 340px;
+    height: 268.8px;
+    border: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: 120px;
+    padding-top: 60px;
+
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+
+.up {
+    display: flex;
+    gap: 50px;
+}
+
+.up a {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat alternates';
+    font-weight: 500;
+    letter-spacing: 8px;
+}
